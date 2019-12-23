@@ -7,14 +7,14 @@
 # <https://github.com/KFERMercer/OpenWrt-CI>
 #
 
-name: OpenWrt-X86-64bit
+name: OpenWrt-X86-64bit00
 
 on:
   push:
     branches: 
       - master
-  schedule:
-    - cron: 0 20 * * *
+  # schedule:
+  #   - cron: 0 20 * * *
   # release:
   #   types: [published]
 
